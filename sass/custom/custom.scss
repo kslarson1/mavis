@@ -35,9 +35,16 @@
 	height: 600px;
 	padding: 2em;
 	background-color: $white;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	@media (min-width: 992px) {
 		width: 50%;
 	}
+}
+
+.image_home_product {
+	width: 100%;
 }
 
 .full_bg {
