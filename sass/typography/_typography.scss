@@ -3,7 +3,7 @@ button,
 input,
 select,
 textarea {
-	@include font-size(1);
+	font-size: 1em;
 	line-height: $font__line-height-body;
 }
 

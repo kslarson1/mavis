@@ -6,8 +6,9 @@
 
 	ul {
 		list-style: none;
-		margin: 0;
-		padding-left: 0;
+		margin: 0 1em 0 0;
+		padding: .2em .5em;
+		float: right;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -46,13 +47,20 @@
 	li {
 		float: left;
 		position: relative;
+		padding: 0 .5em;
+		min-width: 140px;
+		text-align: center;
 
 		&:hover > a {
+			color: $logo-4;
+			transition: .5s all ease-out;
 		}
 	}
 	a {
 		display: block;
 		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1.5em;
 	}
 
 	.current_page_item > a,

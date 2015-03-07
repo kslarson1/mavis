@@ -15,27 +15,16 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
-
-
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-sm-8">
-				<?php get_template_part( 'content', 'page' ); ?>
-
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-				?>
+			<?php woocommerce_content(); ?>
 		</div>
 		<div class="col-xs-12 col-sm-4">
 			<?php get_sidebar(); ?>
 		</div>
 	</div>
 </div>
-			<?php endwhile; // end of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

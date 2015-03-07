@@ -1,13 +1,14 @@
 /*TYPOGRAPHY*/
-$font_header: Muli, sans-serif;	/* Google Fonts */
-$font_text: Merriweather, serif;	/* Google Fonts */
-$font_nav: Special Elite, cursive;  /* Google Fonts */
+$font_header: Oswald, sans-serif;	/* Google Fonts */
+$font_text: Lato, sans-serif;	/* Google Fonts */
+$font_nav: Oswald, cursive;  /* Google Fonts */
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: $font_nav;
 	font-weight: 300;
 	margin: .5em auto;
 	padding: 0;
+	text-transform: uppercase;
 }
 
 p,

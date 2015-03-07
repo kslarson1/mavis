@@ -14,7 +14,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">  <!-- link to Bootstrap -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400|Oswald' rel='stylesheet' type='text/css'>  <!-- google fonts -->
 <?php wp_head(); ?>
 </head>
 
@@ -25,9 +25,16 @@
 	<header id="masthead" class="site-header" role="banner">
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Primary Menu', 'mavis' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+
+		<script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+</script>
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

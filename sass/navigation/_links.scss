@@ -1,6 +1,7 @@
 a {
 	color: $logo-1;
-
+	font-family: $font_text;
+	font-weight: 400;
 	&:visited {
 		color: $color__link-visited;
 	}
