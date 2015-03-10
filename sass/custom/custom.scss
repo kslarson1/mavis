@@ -28,6 +28,11 @@
 	}
 }
 
+.left_img {
+	margin: 1.5em auto;
+	display: block;
+}
+
 .right_side {
 	position: relative;
 	float: left;
@@ -62,6 +67,11 @@
 	margin: 0 0 4em 0;
 }
 
+.about_full {
+	display: block;
+	margin: 0 auto;
+}
+
 .limited_width {
 	max-width: 500px;
 	margin: 0 auto;
@@ -74,4 +84,45 @@
 	padding: 1em;
 	max-width: 600px;
 }
+
+/*=shipping*/
+#terms {
+	padding: 2em 1em 6em 1em;
+	h2 {
+		color: $gray-6;
+	}
+	p {
+		color: $gray-5;
+	}
+}
+
+/*=footer*/
+.site-footer {
+	height: 60px;
+	background-color: $gray-3;
+	color: gray-4;
+	text-transform: uppercase;
+	margin: 2em 0 0 0;
+	padding: 1em .5em;
+
+	a {
+		color: $gray-6;
+		&:hover {
+			color: $logo-1;
+			transition: all .3s ease-in;
+		}
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+		margin: 0 1em;
+	}
+}
+
+
+
 

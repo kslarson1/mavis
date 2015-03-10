@@ -1332,6 +1332,10 @@ h6 {
     .left_side {
       width: 50%; } }
 
+.left_img {
+  margin: 1.5em auto;
+  display: block; }
+
 .right_side {
   position: relative;
   float: left;
@@ -1361,6 +1365,10 @@ h6 {
 #about {
   margin: 0 0 4em 0; }
 
+.about_full {
+  display: block;
+  margin: 0 auto; }
+
 .limited_width {
   max-width: 500px;
   margin: 0 auto; }
@@ -1371,6 +1379,67 @@ h6 {
   margin: 0 auto;
   padding: 1em;
   max-width: 600px; }
+
+/*=shipping*/
+#terms {
+  padding: 2em 1em 6em 1em; }
+  #terms h2 {
+    color: #3f3f3f; }
+  #terms p {
+    color: #7e7e7e; }
+
+/*=footer*/
+.site-footer {
+  height: 60px;
+  background-color: #bdbdbd;
+  color: gray-4;
+  text-transform: uppercase;
+  margin: 2em 0 0 0;
+  padding: 1em .5em; }
+  .site-footer a {
+    color: #3f3f3f; }
+    .site-footer a:hover {
+      color: #254322;
+      -webkit-transition: all .3s ease-in;
+              transition: all .3s ease-in; }
+  .site-footer ul {
+    list-style: none; }
+  .site-footer li {
+    display: inline-block;
+    margin: 0 1em; }
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+      width: 45%; } }
+
+.woocommerce .woocommerce-ordering {
+  display: none; }
+
+.woocommerce .woocommerce-result-count {
+  display: none; }
+
+.woocommerce-page ul.products li.product a img:hover {
+  -webkit-transition: all 1s ease-in;
+          transition: all 1s ease-in; }
+
+.hover {
+  border: 5px solid red; }
+
+.woo_product .amount {
+  display: inline-block;
+  float: right;
+  padding: 8px 1em 8px 0; }
+
+.woocommerce ul.products li.product .price {
+  display: inline; }
+
+.woocommerce .products .star-rating {
+  display: none; }
+
+.single_add_to_cart_button {
+  background-color: blue; }
 
 /*--------------------------------------------------------------
 3.0 Elements
@@ -1400,7 +1469,8 @@ hr {
   margin-bottom: 1.5em; }
 
 ul, ol {
-  margin: 0 0 1.5em 3em; }
+  margin: 0;
+  padding: .1em; }
 
 ul {
   list-style: disc; }
@@ -1523,7 +1593,7 @@ table {
   color: #fff;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: all .3s;
-  transition: all .3s; }
+          transition: all .3s; }
 
 input[type="text"],
 input[type="email"],
@@ -1565,7 +1635,6 @@ a {
   font-weight: 400;
   text-decoration: none; }
   a:visited {
-    color: #5e5e5e;
     text-decoration: none; }
   a:hover, a:focus, a:active {
     color: #436e39;
@@ -1626,7 +1695,7 @@ a {
 .menu-toggle {
   display: none; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block; }
@@ -1796,14 +1865,14 @@ a {
   margin-left: 15px; }
 
 /*media queries*/
-.js .slicknav_menu {
+.slicknav_menu {
   display: none; }
 
 @media screen and (max-width: 700px) {
   .js #menu {
     display: none; }
 
-  .js .slicknav_menu {
+  .slicknav_menu {
     display: block; } }
 /*--------------------------------------------------------------
 6.0 Accessibility

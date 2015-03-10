@@ -16,7 +16,11 @@ get_header(); ?>
 
 <div id="about">
 	<div class="container-fluid">
-		<img src="<?php the_field('about_bg'); ?>">
+		<div class="row">
+			<div class="col-xs-12">
+				<img src="<?php the_field('about_bg'); ?>" class="about_full">
+			</div>
+		</div>
 	</div>
 
 	<div class="container-fluid">

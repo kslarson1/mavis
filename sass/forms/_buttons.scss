@@ -108,9 +108,5 @@
 	border: 2px solid $logo-4;
 	color: $color_button_4;
 	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	-ms-transition: all .3s;
-	-o-transition: all .3s;
-		transition: all .3s;  
+	transition: all .3s;  
 }

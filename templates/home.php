@@ -15,7 +15,7 @@ get_header(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 <div class="container-fluid">
 	<div class="left_side">
-		left side
+		<img src="<?php bloginfo('template_directory'); ?>/images/mavis-logo.png" class="left_img">
 	</div>
 	<div class="right_side" style="background-image: url(<?php the_field('home_product'); ?>);">
 	</div>
@@ -25,13 +25,13 @@ get_header(); ?>
 	<div class="break">
 		<div class="row">
 			<div class="col-xs-12">
-				<h3 class="center">header here</h3>
+				<h1 class="center"><?php the_field('home_header'); ?></h3>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-5 col-sm-offset-1">		
-				<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean eu leo quam.</p>
+				<p><?php the_field('home_sell'); ?></p>
 			</div>
 			<div class="col-xs-12 col-sm-5">
 				<a href="mavis/shop"><button class="button_raised">SHOP</button></a>
