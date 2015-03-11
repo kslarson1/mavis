@@ -25,13 +25,13 @@ get_header(); ?>
 	<div class="break">
 		<div class="row">
 			<div class="col-xs-12">
-				<h1 class="center"><?php the_field('home_header'); ?></h3>
+				<h1 class="center gray-5"><?php the_field('home_header'); ?></h3>
 			</div>
 		</div>
-
+		<br>
 		<div class="row">
 			<div class="col-xs-12 col-sm-5 col-sm-offset-1">		
-				<p><?php the_field('home_sell'); ?></p>
+				<p class="gray-5"><?php the_field('home_sell'); ?></p>
 			</div>
 			<div class="col-xs-12 col-sm-5">
 				<a href="mavis/shop"><button class="button_raised">SHOP</button></a>

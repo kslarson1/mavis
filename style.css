@@ -1306,18 +1306,43 @@ h5 {
 h6 {
   font-size: 1em; }
 
+.gray-1 {
+  color: #EDEDED; }
+
+.gray-2 {
+  color: #d3d3d3; }
+
+.gray-3 {
+  color: #bdbdbd; }
+
+.gray-4 {
+  color: #a8a8a8; }
+
+.gray-5 {
+  color: #7e7e7e; }
+
+.gray-6 {
+  color: #3f3f3f; }
+
 .center {
   text-align: center; }
 
 .break {
   width: 100%;
-  padding: 3em 0 4em 0;
+  padding: 4em 0 6em 0;
   background-color: #EDEDED;
-  min-height: 300px; }
+  min-height: 300px;
+  font-size: 1.1em; }
 
 .break2 {
   width: 100%;
-  padding: 2em 0 4em 0;
+  padding: 4em 0 6em 0;
+  background-color: #FFF;
+  min-height: 320px; }
+
+.break3 {
+  width: 100%;
+  padding: 3em 0 3em 0;
   background-color: #FFF;
   min-height: 320px; }
 

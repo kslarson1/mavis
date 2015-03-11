@@ -27,7 +27,8 @@ get_header(); ?>
 		<div class="break2">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1 class="center">Mavis</h1>
+					<h1 class="center gray-5">Mavis</h1>
+					<br>
 					<p class="limited_width"><?php the_field('about_text'); ?></p>
 				</div>
 			</div>

@@ -1,17 +1,44 @@
+.gray-1 {
+	color: $gray-1;
+}
+.gray-2 {
+	color: $gray-2;
+}
+.gray-3 {
+	color: $gray-3;
+}
+.gray-4 {
+	color: $gray-4;
+}
+.gray-5 {
+	color: $gray-5;
+}
+.gray-6 {
+	color: $gray-6;
+}
+
+
+
 .center {
 	text-align: center;
 }
 
 .break {
 	width: 100%;
-	padding: 3em 0 4em 0;
+	padding: 4em 0 6em 0;
 	background-color: $gray-1;
 	min-height: 300px;
+	font-size: 1.1em;
 }
-
 .break2 {
 	width: 100%;
-	padding: 2em 0 4em 0;
+	padding: 4em 0 6em 0;
+	background-color: $white;
+	min-height: 320px;
+}
+.break3 {
+	width: 100%;
+	padding: 3em 0 3em 0;
 	background-color: $white;
 	min-height: 320px;
 }
