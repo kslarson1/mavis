@@ -1327,18 +1327,31 @@ h6 {
 .center {
   text-align: center; }
 
+.t-right {
+  text-align: right; }
+
+.inline-b {
+  display: inline-block; }
+
 .break {
   width: 100%;
   padding: 4em 0 6em 0;
   background-color: #EDEDED;
   min-height: 300px;
   font-size: 1.1em; }
+  .break h1 {
+    color: #1C1C1C;
+    font-weight: 200; }
 
 .break2 {
   width: 100%;
   padding: 4em 0 6em 0;
   background-color: #FFF;
-  min-height: 320px; }
+  min-height: 320px;
+  color: #7e7e7e; }
+  .break2 h1 {
+    color: #436e39;
+    font-weight: 200; }
 
 .break3 {
   width: 100%;
@@ -1386,6 +1399,8 @@ h6 {
   min-height: 500px;
   padding: 11em 1em;
   color: #FFF; }
+  .full_bg p {
+    font-size: 1.1em; }
 
 #about {
   margin: 0 0 4em 0; }
@@ -1678,7 +1693,8 @@ a {
   clear: both;
   display: block;
   float: left;
-  width: 100%; }
+  width: 100%;
+  height: 3em; }
   .main-navigation ul {
     list-style: none;
     margin: 0 1em 0 0;
@@ -1996,7 +2012,7 @@ a {
   display: block; }
 
 .hentry {
-  margin: 0 0 1.5em; }
+  margin: 0; }
 
 .byline,
 .updated:not(.published) {
@@ -2005,11 +2021,6 @@ a {
 .single .byline,
 .group-blog .byline {
   display: inline; }
-
-.page-content,
-.entry-content,
-.entry-summary {
-  margin: 1.5em 0 0; }
 
 .page-links {
   clear: both;

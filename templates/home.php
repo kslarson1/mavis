@@ -24,25 +24,19 @@ get_header(); ?>
 <div class="container-fluid">
 	<div class="break">
 		<div class="row">
-			<div class="col-xs-12">
-				<h1 class="center gray-5"><?php the_field('home_header'); ?></h3>
+			<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+				<h1 class="center gray-5"><?php the_field('home_header'); ?></h1>
+				<p class="gray-5 center"><?php the_field('home_sell'); ?></p>
+				<br>
+				<a href="mavis/shop"><button class="button_ghost">SHOP</button></a>
 			</div>
 		</div>
-		<br>
-		<div class="row">
-			<div class="col-xs-12 col-sm-5 col-sm-offset-1">		
-				<p class="gray-5"><?php the_field('home_sell'); ?></p>
-			</div>
-			<div class="col-xs-12 col-sm-5">
-				<a href="mavis/shop"><button class="button_raised">SHOP</button></a>
-			</div>
-		</div>  <!-- end of row -->
 	</div>  <!-- end of break -->
 
 	<div class="full_bg" style="background-image: url(<?php the_field('bottom_bg'); ?>);">
 		<div class="row">
-			<div class="col-xs-12 center">
-				<h1>FRESH INGREDIENTS</h1>
+			<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+				<p class="inline-b center"><?php the_field('testimonial_text'); ?></p><h1 class="t-right"><?php the_field('testimonial_author'); ?></h1>
 			</div>
 		</div>
 	</div>

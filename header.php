@@ -14,7 +14,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400|Oswald' rel='stylesheet' type='text/css'>  <!-- google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400|Oswald:400,300' rel='stylesheet' type='text/css'>  <!-- google fonts -->
 <?php wp_head(); ?>
 </head>
 
